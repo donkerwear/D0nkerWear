@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #fff;
+}
+
+header {
+    background: #222;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+.galeria img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    background: #222;
+    text-align: center;
+    padding: 10px;
+}
+.logo {
+    width: 450px; /* Ajuste o tamanho se necessário */
+    display: block;
+    margin: 0 auto; /* Centraliza a logo */
+}
+.croquis img {
+    width: 300px; /* Ajuste conforme necessário */
+    margin: 10px; /* Espaçamento entre as imagens */
+    display: inline-block; /* Isso faz com que as imagens apareçam lado a lado */
+}
+/* Galeria de Portfólio */
+.portfolio-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.portfolio-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.1);
+}
+#servicos {
+    margin: 50px 0;
+    padding: 20px;
+    
+    text-align: center;
+    font-size: 36px;
+  }
+  
+  .servico {
+    margin: 20px 0;
+  }
+  
+  .servico h3 {
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
+  .servico p {
+    font-size: 16px;
+    color: #dedede;
+  }
+  body {
+    font-size: 28px; /* Aumenta o tamanho padrão do texto */
+  }
+  h1 {
+    font-size: 32px; /* Aumenta os títulos */
+  }
+  p {
+    font-size: 20px; /* Aumenta os parágrafos */
+  }
+  .servicos {
+    font-size: 552px; /* Ajuste o tamanho conforme quiser */
+  }
